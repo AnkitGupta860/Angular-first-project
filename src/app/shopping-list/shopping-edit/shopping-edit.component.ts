@@ -20,4 +20,5 @@ export class ShoppingEditComponent {
     const newIngredientRef = new Ingredient(ingName,ingAmount);
     this.shoppingList.addIngredient(newIngredientRef);
   }
+  
 }
